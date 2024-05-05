@@ -4,6 +4,7 @@ export function isPhoneNumber(phoneNumber) {
   return phoneRegex.test(phoneNumber);
 }
 
+
 // matches valid emails
 export function isEmail(email) {
   const emailRegex = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
